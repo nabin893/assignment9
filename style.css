@@ -5,6 +5,15 @@
    /* margin: 0px 150px ; */
    width: 1485px;
 }
+.mobil1{
+    display: none;
+}
+
+
+
+
+
+
 .header1{
     /* width: 100%; */
     height: 1000px;
@@ -636,6 +645,47 @@
         width: 375px;
      }
 
+.mobil1{
+    display: block;
+    width: 100%;
+    
+   
+
+}
+.mobil1-menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mobil1-tex1{
+    font-size: 40px;
+
+}
+.mobil1-menu1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+
+    
+
+}
+.mobil1-menu1 a{
+    text-decoration: none;
+    font-size: 90px;
+    color: black;
+    margin-top: 50px;
+
+
+}
+.mobil1-iconi{
+    display: flex;
+    margin-top: 70px;
+
+}
+
+
+
+
 .header1{
     /* width: 100%; */
     height: 1400px;
@@ -651,7 +701,7 @@
     background-position: center;
 }
 .nav1{
-    display: flex;
+    display:none;
     justify-content: space-evenly;
 
 }
